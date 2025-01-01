@@ -1,0 +1,1 @@
+<h1 style="color: red; text-align: center;">WELCOME TO SPRINGBOOT MVC </h1>
