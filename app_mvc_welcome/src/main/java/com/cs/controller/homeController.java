@@ -15,7 +15,7 @@ public class homeController {
 		return "home";
 	}
 	*/
-	
+	/*
 	@RequestMapping("/home") 
 	public String welcomeHome(Map<String, Object> map) {
 		
@@ -24,6 +24,16 @@ public class homeController {
 		map.put("attribute2", "val2");
 		return "home";
 	}
+	*/
+	@RequestMapping("/home") 
+	public String welcomeHome(Map<String, Object> map) {
+		
+		System.out.println("homeController.welcomeHome()");
+		map.put("attribute1", "val1");
+		map.put("attribute2", "val2");
+		return "home";
+	}
+	
 	
  
 }
