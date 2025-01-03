@@ -16,7 +16,7 @@ public class homeController {
 	}
 	*/
 	
-	@RequestMapping("/home")
+	@RequestMapping("/home") 
 	public String welcomeHome(Map<String, Object> map) {
 		
 		System.out.println("homeController.welcomeHome()");
