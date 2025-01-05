@@ -46,7 +46,7 @@ public class homeController {
 		map.addAttribute("attribute1", "val1   ");
 		LocalDateTime currentDateTime = LocalDateTime.now();
 		map.addAttribute("attribute2", "   "+currentDateTime);
-		return "home";	
+		return "home";	 
 	}*/
 	@RequestMapping("/home") 
 	public String welcomeHome(Map<String, Object> map) {
