@@ -4,4 +4,4 @@
 <b>Model Attributes are :: ${attribute1},${attribute2}</b>
 <h3>Model Attributes are :: ${attribute1},${attribute2}</h3>
 <br><br>
-<a href="wishMessage">wishmessage</a>
+<h2 style="color: red; "><a href="wishMessage">wishmessage</a></h2>
