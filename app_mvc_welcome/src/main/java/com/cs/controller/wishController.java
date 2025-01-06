@@ -18,7 +18,7 @@ public class wishController {
 	public String wishMessage(Map<String, Object> map) {
 		
 		System.out.println("wishController.wishMessage()");
-		String msg = service.wishMessage();
+		String msg = service.wishMessage(); 
 		map.put("resultMessage", msg);
 		return "wishMessage";
 	} 
