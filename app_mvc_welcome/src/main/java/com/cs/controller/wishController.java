@@ -10,7 +10,7 @@ import com.cs.service.IWishMessageService;
 
 @Controller
 public class wishController {
-	 
+	   
 	@Autowired 
 	private IWishMessageService service;
 	
