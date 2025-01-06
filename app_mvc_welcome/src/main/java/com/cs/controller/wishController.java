@@ -11,7 +11,7 @@ import com.cs.service.IWishMessageService;
 @Controller
 public class wishController {
 	
-	@Autowired
+	@Autowired 
 	private IWishMessageService service;
 	
 	@RequestMapping("/wishMessage")
