@@ -14,7 +14,7 @@ public class wishController {
 	@Autowired  
 	private IWishMessageService service;
 	
-	@RequestMapping("/wishMessage")  
+	@RequestMapping("/wishMessage")   
 	public String wishMessage(Map<String, Object> map) {
 		
 		System.out.println("wishController.wishMessage()");
