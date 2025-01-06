@@ -21,6 +21,6 @@ public class wishController {
 		String msg = service.wishMessage();
 		map.put("resultMessage", msg);
 		return "wishMessage";
-	}
+	} 
 
 }
