@@ -31,7 +31,7 @@ public class homeController {
 		map.put("attribute1", "val1");
 		map.put("attribute2", "val2");
 		return "home";
-	}
+	} 
 	*/
 	/*@RequestMapping("/home") 
 	public String welcomeHome(Model model) {
